@@ -1,0 +1,16 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+group = 'me.hltj'
+version = '1.0-SNAPSHOT'
+
+mainClassName = 'me.hltj.java9demo.lombok.LombokDemo'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly "org.projectlombok:lombok:1.16.18"
+    compile "ch.qos.logback:logback-classic:1.2.3"
+}
