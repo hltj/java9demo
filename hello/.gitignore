@@ -1,3 +1,15 @@
 /target
 /build
 /.gradle
+/.idea
+/*.iml
+/out
+/.project
+/.settings
+/bin
+/.classpath
+/.nb-gradle
+/manifest.mf
+/dist
+/nbproject
+/build.xml
