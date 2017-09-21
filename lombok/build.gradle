@@ -6,6 +6,10 @@ version = '1.0-SNAPSHOT'
 
 mainClassName = 'me.hltj.java9demo.lombok.LombokDemo'
 
+compileJava {
+    options.compilerArgs += ['--add-modules', 'java.xml.ws.annotation']
+}
+
 repositories {
     mavenCentral()
 }
