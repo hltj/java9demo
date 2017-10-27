@@ -14,7 +14,7 @@ class Language {
 @Slf4j
 public class LombokDemo {
     public static void main(String[] args) {
-        val version = Integer.parseInt(System.getProperty("java.version"));
+        val version = Runtime.version().major();
 
         val java = new Language("Java", version);
 
