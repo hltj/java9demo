@@ -17,13 +17,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.16.22</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.glassfish</groupId>
-            <artifactId>javax.annotation</artifactId>
-            <version>10.0-b28</version>
+            <version>1.18.8</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
